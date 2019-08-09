@@ -1,0 +1,82 @@
+body {
+  background: url(../images/beer-wall1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: visible;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.card {
+  width: 20em;
+}
+
+.error {
+  margin: 0 0 0 1em;
+  color: rgb(234, 146, 19);
+  font-size: 1.2em;
+}
+
+#sign-up .error {
+  text-align: left;
+}
+
+div .brew-card {
+  background-color: rgb(58, 71, 80);
+  width: 30em;
+  margin: 10em auto 0 auto;
+}
+
+.brew-card form input {
+  outline: none;
+  font-size: 1.10em;
+  padding-left: .40em;
+  border-radius: 0.50em;
+}
+
+.brew-card button {
+  width: 10em;
+}
+
+.brew-card img {
+  margin: 0 -2em 1em -2em;
+}
+
+#update .brew-card {
+  width: 40em;
+}
+
+#nav-logo {
+  color: white;
+  cursor: pointer;
+}
+
+.page {
+  z-index: -1;
+  padding-top: 5vh;
+  margin: auto;
+  width: 70%;
+  background: rgba(255, 255, 255, 90%);
+}

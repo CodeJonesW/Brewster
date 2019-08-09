@@ -1,0 +1,125 @@
+.sort-filter {
+  padding: 1em;
+
+  border: 2px solid black;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 80%);
+
+  position: absolute;
+  top: 10em;
+  left: 2em;
+}
+
+#home-shelf {
+  margin: 6em auto;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 90%);
+}
+
+#home-shelf .beer-shelf {
+  border: 4px solid black;
+}
+
+/**************************************************/
+
+.beer-shelf * {
+  /*border: 1px solid black;*/
+}
+
+.beer-shelf {
+  padding-top: 3em;
+  padding-bottom: 3.8em;
+  background: url(../images/shelf3.png) no-repeat;
+  background-position: bottom;
+}
+
+.beer-scroll-grid {
+  /* moves the scrollbar down 3.50em */
+  padding-bottom: 3.50em;
+  margin-bottom: -3.50em;
+
+  display: grid;
+  grid-template-columns: repeat(50, 14em);
+  overflow-x: scroll;
+}
+
+.item {
+  height: 30vh;
+  background-size: 6.50vh;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+/**************************************************/
+
+#showBeer img {
+  width: 4em;
+}
+
+#close-showBeer {
+  color: rgba(50,50,50, 20%);
+  cursor: pointer;
+}
+
+#close-showBeer:hover {
+  color: rgb(0,0,0);
+}
+
+#showBeer-labels {
+  text-align: right;
+  margin-top: 2em;
+}
+
+.heart{
+  cursor: pointer;
+  font-size: 1.2em;
+}
+.notepad{
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+#showBeer-values {
+  text-align: left;
+  margin-top: 2em;
+}
+
+#review-form {
+  width: 17em;
+
+  padding: 1em 1em 1em 1.5em;
+  margin: -1em 0 0 2em;
+
+  border: 1px solid black;
+  border-radius: 40px 5px 40px 5px;
+  background-color: silver;
+}
+
+#profile .review-list { background-color: rgba(255, 255, 255, 90%) }
+.review-list {
+  text-align: left;
+  padding: 2em 2em 2em 0;
+}
+
+.review-list li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+.review-list h4 {
+  margin-left: 2em;
+}
+
+.trashcan:hover { color: red; }
+.trashcan {
+  cursor: pointer;
+  color: grey;
+}
+
+.close-btn:hover { color: DodgerBlue; }
+.close-btn {
+  font-size: 1.30em;
+  margin: -0.40em -0.40em 0 0;
+  float: right;
+  color:grey;
+  color: grey;
+}
